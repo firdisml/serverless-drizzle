@@ -1,0 +1,18 @@
+{
+  "name": "serverless-drizzle",
+  "description": "This template demonstrates how to make a simple HTTP API with Node.js and Typescript running on AWS Lambda and API Gateway using the Serverless Framework v3",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/pg": "^8.6.6",
+    "drizzle-kit": "^0.17.6",
+    "drizzle-orm": "^0.25.3",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.101",
+    "serverless": "^3.21.0",
+    "serverless-offline": "^12.0.4",
+    "serverless-plugin-typescript": "^2.1.2",
+    "typescript": "^4.7.4"
+  }
+}
